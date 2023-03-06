@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup"
+    android:orientation="vertical"
+    tools:context=".Signup">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_marginTop="330dp"
+        android:layout_gravity="center"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        android:background="#00000000"
+        app:boxBackgroundMode="outline"
+        app:helperText="*Required"
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        android:layout_height="50dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etname"
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        android:background="#00000000"
+        app:boxBackgroundMode="outline"
+        app:helperText="*Required"
+        app:startIconDrawable="@drawable/ic_baseline_email_24"
+        android:layout_height="50dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etemail"
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Email id" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        android:background="#00000000"
+        app:boxBackgroundMode="outline"
+        app:startIconDrawable="@drawable/ic_baseline_lock_24"
+        app:endIconMode="password_toggle"
+        app:helperText="*Required"
+        android:layout_height="50dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etpass"
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_height="wrap_content"
+            android:hint="Enter your password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:text="Sign up"
+        android:backgroundTint="#808080"
+        app:cornerRadius="40dp" />
+
+
+</LinearLayout>

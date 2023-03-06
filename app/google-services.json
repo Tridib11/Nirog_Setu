@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "109029477073",
+    "project_id": "nirog-setu",
+    "storage_bucket": "nirog-setu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109029477073:android:61b68989578331cf7613f0",
+        "android_client_info": {
+          "package_name": "com.example.test.nirogsetu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109029477073-8a6o89vm8qj64rk9uuj71boj1qeshkac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6YjlLhsj5sfMgu3xQtWE8HdStf5xEGRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109029477073-8a6o89vm8qj64rk9uuj71boj1qeshkac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
